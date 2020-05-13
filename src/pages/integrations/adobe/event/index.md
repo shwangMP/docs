@@ -10,7 +10,7 @@ Adobe provides analytics and optimizations for mobile apps and brings together a
 
 mParticle supports Adobe Marketing Cloud’s Mobile Services through our mobile SDKs and platform forwarding functionality.  Data collection is enabled through SDK instrumentation.  Once your app is properly instrumented, data is ingested into the mParticle platform, which maps inbound data to the Adobe Mobile Services’ features and their required formats and then forwards the data to Adobe.
 
-## Adobe Analytics Overview and Prerequisites
+## Adobe Analytics Overview and Prerequisites 
 
 Currently mParticle supports Adobe's 4.x SDK. The workflow of using the mParticle SDK is similar to using Adobe 4.x SDK. 
 

@@ -99,7 +99,7 @@ will map to the following:
 ```
 window.adobe.target.getOffer({
     mbox: MBOXNAME,
-    params: params,
+    params: customAttrs,
     success: function(offer) {
         window.adobe.target.applyOffer(offer);
         successHandler(offer); // optional
@@ -110,7 +110,7 @@ window.adobe.target.getOffer({
 });
 ```
 
-The following methods are used to track commerce events:
+<!-- The following methods are used to track commerce events:
 
 | Adobe Mobile Services SDK | mParticle SDK      |
 | ------------------------- | ------------------ |
@@ -219,4 +219,4 @@ These values are case sensitive and must be entered exactly.
 | Props                     | `Custom Field` | <unset>       | All      | Mapping of your application's custom event attributes to Adobe props                                              |
 | eVars                     | `Custom Field` | <unset>       | All      | Mapping of your application's custom event attributes to Adobe eVars                                              |
 | Hier Variables            | `Custom Field` | <unset>       | All      | Mapping of your application's screen view attributes to Adobe hier variables                                      |
-| App and Device Attributes | `string`       | <unset>       | All      | A [comma separated list of app and device attributes](#app-and-device-attributes) to forward as context variables |
+| App and Device Attributes | `string`       | <unset>       | All      | A [comma separated list of app and device attributes](#app-and-device-attributes) to forward as context variables | -->

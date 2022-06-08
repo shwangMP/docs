@@ -44,3 +44,4 @@ reward_reference | A fixed value, configured for the integration, that allows fo
 ### User Identities
 
 * Customer ID
+* Test ID
